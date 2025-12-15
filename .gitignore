@@ -15,4 +15,4 @@ package-lock.json
 /test-results/
 
 # GitHub config
-.github/
+# .github/
