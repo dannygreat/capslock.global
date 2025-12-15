@@ -1,0 +1,18 @@
+# Playwright Artifact files
+# IDE and OS files
+.vscode
+.DS_Store
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Playwright Artifacts
+/playwright-report/*
+!/playwright-report/results.json
+/blob-report/
+/playwright/.cache/
+/test-results/
+
+# GitHub config
+.github/
