@@ -52,18 +52,24 @@ The `WalkInBathPage` class provides clean, maintainable access to all page eleme
 ```typescript
 // Example usage: 
 test('Scenario 1: ', async ({ walkInBathPage }) => {}); // we use fixtures
-await page.navigate();
+await page.navigateToApp();
 await page.clickShowMoreReviews();
 ```
 
 ### Key Methods:
-- Navigation: `navigate()`
+- Navigation: `navigateToApp()`
 - Gallery: `clickGalleryNext()`, `clickGalleryPrevious()`, `getCurrentGalleryImage()`
 - Reviews: `clickShowMoreReviews()`, `getVisibleReviewCount()`, `getReviewText()`
 - Links: `clickCDCLink()`, `getCDCLinkHref()`
 - Content: `isPricePromiseVisible()`, `isHealthBenefiktsVisible()`, `isWarrantyImageVisible()`, `isFooterVisible()`
 
 ## Running Tests
+
+### Preparing the environment  
+
+1. Install [Node.js](https://nodejs.org/en/)
+2. Install PlayWright: `npx playwright install`
+3. Run: `npm install`
 
 ### Run all tests:
 ```bash
