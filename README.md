@@ -34,7 +34,7 @@ Confirms the CDC Research external link exists, has correct href, and is clickab
 Ensures the page contains multiple independent ZIP code forms that work correctly.
 
 ### ✅ Scenario 8: Should Make New Requests To Install a Walk-in Bath in Michigan
-Ensures the page contains multiple independent ZIP code forms that work correctly.
+Ensures the user can throw forms that work correctly.
 
 ## Defects Found
 
