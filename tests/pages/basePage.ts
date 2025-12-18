@@ -7,8 +7,8 @@ export class BasePage {
         this.page = page;
     }
 
-    async waitForLoadState(_paramState: string): Promise<void> {
-        await this.page.waitForLoadState('domcontentloaded');
+    async waitForLoadState(state: 'load' | 'domcontentloaded' | 'networkidle' = 'domcontentloaded'): Promise<void> {
+        await this.page.waitForLoadState(state);
     }
 
     async takeScreenshot(name: string): Promise<Buffer> {
